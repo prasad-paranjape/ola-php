@@ -1,0 +1,16 @@
+{
+  "name": "prasad-paranajape/ola_php",
+  "description": "PHP sdk for ola cabs",
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "prasad-paranjape/ola_oauth_php": "dev-master",
+    "stevenmaguire/uber-php": "dev-master",
+    "monolog/monolog": "1.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pp\\Ola\\": "src/"
+    }
+  }
+}
